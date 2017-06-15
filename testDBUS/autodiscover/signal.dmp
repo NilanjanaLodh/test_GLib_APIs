@@ -1,0 +1,97 @@
+signal time=1496349973.690958 sender=org.freedesktop.DBus -> destination=:1.182 serial=2 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.182"
+signal time=1496349973.691078 sender=org.freedesktop.DBus -> destination=:1.182 serial=4 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+   string ":1.182"
+signal time=1496349973.695471 sender=:1.15 -> destination=(null destination) serial=14997 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.182"
+      string "ARG1=:1.182"
+      string "ARG2="
+   ]
+signal time=1496349975.117908 sender=:1.115 -> destination=(null destination) serial=141 path=/com/canonical/unity/gtk/window/0; interface=org.gtk.Actions; member=Changed
+   array [
+   ]
+   array [
+      dict entry(
+         string "TabsMoveRight"
+         boolean true
+      )
+   ]
+   array [
+   ]
+   array [
+   ]
+signal time=1496349975.118478 sender=:1.15 -> destination=(null destination) serial=14998 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=Changed"
+      string "BUS=session"
+      string "INTERFACE=org.gtk.Actions"
+      string "OBJPATH=/com/canonical/unity/gtk/window/0"
+      string "SENDER=:1.115"
+   ]
+signal time=1496349976.291607 sender=org.freedesktop.DBus -> destination=(null destination) serial=740 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.183"
+   string ""
+   string ":1.183"
+signal time=1496349976.291729 sender=org.freedesktop.DBus -> destination=:1.183 serial=5 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.183"
+signal time=1496349976.293076 sender=:1.15 -> destination=(null destination) serial=14999 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.183"
+      string "ARG1="
+      string "ARG2=:1.183"
+   ]
+signal time=1496349977.979353 sender=:1.15 -> destination=(null destination) serial=15000 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=PropertiesChanged"
+      string "BUS=system"
+      string "INTERFACE=org.freedesktop.DBus.Properties"
+      string "OBJPATH=/org/freedesktop/NetworkManager/AccessPoint/0"
+      string "SENDER=:1.9"
+      string "ARG0=org.freedesktop.NetworkManager.AccessPoint"
+   ]
+signal time=1496349977.979689 sender=:1.15 -> destination=(null destination) serial=15001 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=PropertiesChanged"
+      string "BUS=system"
+      string "INTERFACE=org.freedesktop.NetworkManager.AccessPoint"
+      string "OBJPATH=/org/freedesktop/NetworkManager/AccessPoint/0"
+      string "SENDER=:1.9"
+   ]
+signal time=1496349978.404032 sender=:1.115 -> destination=(null destination) serial=142 path=/com/canonical/unity/gtk/window/0; interface=org.gtk.Actions; member=Changed
+   array [
+   ]
+   array [
+      dict entry(
+         string "TabsMoveRight"
+         boolean false
+      )
+   ]
+   array [
+   ]
+   array [
+   ]
+signal time=1496349978.404917 sender=:1.15 -> destination=(null destination) serial=15002 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=Changed"
+      string "BUS=session"
+      string "INTERFACE=org.gtk.Actions"
+      string "OBJPATH=/com/canonical/unity/gtk/window/0"
+      string "SENDER=:1.115"
+   ]

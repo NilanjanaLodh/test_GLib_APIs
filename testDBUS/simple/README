@@ -1,0 +1,97 @@
+A simple example showing how to use dbus.
+
+DBus is a high level IPC mechanism(built on lower level mechanisms such as unix domain sockets/shared memory etc.)
+There are various DBus APIs available; I have used the GDBus API here.
+
+The processes which want to communicate via DBus are connected to the same message bus daemon.
+By default there are two message buses: 
+    - System bus (common to all users)
+    - Session bus ( per user login session )
+
+
+Here I have created one 'server' program and one 'client' program which communicate over the session bus.
+
+The DBus Architecture and naming system:
+
+- Unique name
+    Each connection to the server has a unique name (say :1.234)
+    But Services have an additional "well known name" (like org.freeDesktop.Openprinting)
+    Each service exposes OBJECTS
+    - OBJECTS (each object has an object path : like unix file system paths)
+        - Interfaces
+            - Methods 
+            - properties 
+            - signals
+
+
+We need not write the entire DBus interface in C (that's a pain in the ...)
+We can simply just define the interface details in an xml file 
+    and then gdbus-codegen can generate the .c and .h files for us
+
+At the shell prompt , type:
+$ make gen
+
+
+This will run the gdbus-codegen command with the appropriate flags on com.Nilanjana.xml
+ and will generate the following files:
+    - mydbus.c
+    - mydbus.h
+
+_________________Internal working Explanation (Skip if not interested)_______________________
+
+Let's look at the function "add" defined in com.Nilanjana.xml ;
+as is evident from the syntax, it has two input arguments: num1 and num2 ; 
+                                      one output : ans 
+
+when you generate the .[c/h] files using dbus-codegen , It will generate the following
+functions for the "add" method 
+
+For Asynchronous operation (non blocking call) :-
+- my_dbus_calculator_call_add(..)
+- my_dbus_calculator_call_add_finish(..)
+
+For Synchronous calls(Blocks calling thread till return)
+- my_dbus_calculator_call_add_sync(..)
+
+general
+- my_dbus_calculator_complete_add(..) : used by services 
+
+
+
+Now, we got to use these generated definitions to write our actual server and client programs.
+
+Server side:
+Its the server side (or the DBus Service) which "creates" and "registers" the object.
+The basic steps followed by the server are as follows :
+    - Acquires the well known bus name
+    - Hooks an intializing function to some signal like "bus-name_acquired"
+    - This intializing function does the main initializing jobs
+        - creates a DBus Interface instance 
+        - hooks up the interface's function signals and their corresponding callback functions
+    - Implement the respective callback functions for each method of the interface
+
+
+Client side(add.c and sub.c)
+Let's just consider add.c for simplicity
+The basic steps on the client side are
+    - Create a 'proxy' object corresponding to the object who's method you want to access
+    - Call the appropriate method using that proxy object
+        - There are 2 ways of calling these Methods :
+            - Synchronous ( which has been used here)
+            - Asynchronous (Doesn't block. To Do!)
+_____________________________________________________________________________________________
+
+In summary:
+
+How to run?
+$ make gen 
+$ make 
+
+In one terminal window :
+$ ./server
+
+
+In a separate terminal: 
+$ ./add 2 3
+
+

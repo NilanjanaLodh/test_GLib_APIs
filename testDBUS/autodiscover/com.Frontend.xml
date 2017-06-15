@@ -1,0 +1,5 @@
+<node>
+    <interface name="com.Print.Frontend">
+        <signal name="ActivateBackend" />
+    </interface>
+</node>

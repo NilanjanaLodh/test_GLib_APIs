@@ -1,0 +1,5 @@
+<node>
+    <interface name="org.openprinting.PrintBackend">
+        <signal name="BackendReply" />
+    </interface>
+</node>

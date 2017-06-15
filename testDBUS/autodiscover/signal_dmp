@@ -1,0 +1,283 @@
+signal time=1496349776.245212 sender=org.freedesktop.DBus -> destination=:1.175 serial=2 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.175"
+signal time=1496349776.245341 sender=org.freedesktop.DBus -> destination=:1.175 serial=4 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+   string ":1.175"
+signal time=1496349776.245422 sender=:1.15 -> destination=(null destination) serial=14664 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.175"
+      string "ARG1=:1.175"
+      string "ARG2="
+   ]
+signal time=1496349778.235554 sender=:1.115 -> destination=(null destination) serial=129 path=/com/canonical/unity/gtk/window/0; interface=org.gtk.Actions; member=Changed
+   array [
+   ]
+   array [
+      dict entry(
+         string "TabsMoveRight"
+         boolean true
+      )
+   ]
+   array [
+   ]
+   array [
+   ]
+signal time=1496349778.238387 sender=:1.15 -> destination=(null destination) serial=14665 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=Changed"
+      string "BUS=session"
+      string "INTERFACE=org.gtk.Actions"
+      string "OBJPATH=/com/canonical/unity/gtk/window/0"
+      string "SENDER=:1.115"
+   ]
+signal time=1496349779.001058 sender=org.freedesktop.DBus -> destination=:1.174 serial=5 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+   string ":1.174"
+signal time=1496349779.001136 sender=org.freedesktop.DBus -> destination=(null destination) serial=715 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.174"
+   string ":1.174"
+   string ""
+signal time=1496349779.005028 sender=:1.15 -> destination=(null destination) serial=14666 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.174"
+      string "ARG1=:1.174"
+      string "ARG2="
+   ]
+signal time=1496349779.883299 sender=org.freedesktop.DBus -> destination=(null destination) serial=716 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.176"
+   string ""
+   string ":1.176"
+signal time=1496349779.883429 sender=org.freedesktop.DBus -> destination=:1.176 serial=6 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.176"
+signal time=1496349779.884677 sender=:1.15 -> destination=(null destination) serial=14667 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.176"
+      string "ARG1="
+      string "ARG2=:1.176"
+   ]
+signal time=1496349779.977995 sender=:1.15 -> destination=(null destination) serial=14668 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=PropertiesChanged"
+      string "BUS=system"
+      string "INTERFACE=org.freedesktop.DBus.Properties"
+      string "OBJPATH=/org/freedesktop/NetworkManager/AccessPoint/0"
+      string "SENDER=:1.9"
+      string "ARG0=org.freedesktop.NetworkManager.AccessPoint"
+   ]
+signal time=1496349779.978496 sender=:1.15 -> destination=(null destination) serial=14669 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=PropertiesChanged"
+      string "BUS=system"
+      string "INTERFACE=org.freedesktop.NetworkManager.AccessPoint"
+      string "OBJPATH=/org/freedesktop/NetworkManager/AccessPoint/0"
+      string "SENDER=:1.9"
+   ]
+signal time=1496349780.001159 sender=:1.84 -> destination=(null destination) serial=231 path=/com/canonical/indicator/datetime; interface=org.gtk.Actions; member=Changed
+   array [
+   ]
+   array [
+   ]
+   array [
+      dict entry(
+         string "phone-header"
+         variant             array [
+               dict entry(
+                  string "title"
+                  variant                      string "Time & Date"
+               )
+               dict entry(
+                  string "visible"
+                  variant                      boolean true
+               )
+               dict entry(
+                  string "label"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "accessible-desc"
+                  variant                      string " 2:13 AM"
+               )
+            ]
+      )
+      dict entry(
+         string "phone_greeter-header"
+         variant             array [
+               dict entry(
+                  string "title"
+                  variant                      string "Time & Date"
+               )
+               dict entry(
+                  string "visible"
+                  variant                      boolean true
+               )
+               dict entry(
+                  string "label"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "accessible-desc"
+                  variant                      string " 2:13 AM"
+               )
+            ]
+      )
+      dict entry(
+         string "desktop-header"
+         variant             array [
+               dict entry(
+                  string "accessible-desc"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "label"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "title"
+                  variant                      string "Date and Time"
+               )
+               dict entry(
+                  string "visible"
+                  variant                      boolean true
+               )
+            ]
+      )
+      dict entry(
+         string "desktop_greeter-header"
+         variant             array [
+               dict entry(
+                  string "accessible-desc"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "label"
+                  variant                      string " 2:13 AM"
+               )
+               dict entry(
+                  string "title"
+                  variant                      string "Date and Time"
+               )
+               dict entry(
+                  string "visible"
+                  variant                      boolean true
+               )
+            ]
+      )
+   ]
+   array [
+   ]
+signal time=1496349780.002029 sender=:1.15 -> destination=(null destination) serial=14670 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=Changed"
+      string "BUS=session"
+      string "INTERFACE=org.gtk.Actions"
+      string "OBJPATH=/com/canonical/indicator/datetime"
+      string "SENDER=:1.84"
+   ]
+signal time=1496349780.082196 sender=:1.70 -> destination=(null destination) serial=2590 path=/com/canonical/Unity/Panel/Service; interface=com.canonical.Unity.Panel.Service; member=ReSync
+   string "com.canonical.indicator.datetime"
+signal time=1496349780.082846 sender=:1.15 -> destination=(null destination) serial=14671 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=ReSync"
+      string "BUS=session"
+      string "INTERFACE=com.canonical.Unity.Panel.Service"
+      string "OBJPATH=/com/canonical/Unity/Panel/Service"
+      string "SENDER=:1.70"
+      string "ARG0=com.canonical.indicator.datetime"
+   ]
+signal time=1496349781.066862 sender=org.freedesktop.DBus -> destination=:1.176 serial=7 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+   string ":1.176"
+signal time=1496349781.066977 sender=org.freedesktop.DBus -> destination=(null destination) serial=718 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.176"
+   string ":1.176"
+   string ""
+signal time=1496349781.068017 sender=:1.15 -> destination=(null destination) serial=14672 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.176"
+      string "ARG1=:1.176"
+      string "ARG2="
+   ]
+signal time=1496349781.730706 sender=org.freedesktop.DBus -> destination=(null destination) serial=719 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.177"
+   string ""
+   string ":1.177"
+signal time=1496349781.730854 sender=org.freedesktop.DBus -> destination=:1.177 serial=8 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.177"
+signal time=1496349781.731537 sender=:1.15 -> destination=(null destination) serial=14673 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.177"
+      string "ARG1="
+      string "ARG2=:1.177"
+   ]
+signal time=1496349782.365369 sender=org.freedesktop.DBus -> destination=:1.177 serial=9 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+   string ":1.177"
+signal time=1496349782.365450 sender=org.freedesktop.DBus -> destination=(null destination) serial=721 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameOwnerChanged
+   string ":1.177"
+   string ":1.177"
+   string ""
+signal time=1496349782.365500 sender=:1.15 -> destination=(null destination) serial=14674 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=NameOwnerChanged"
+      string "BUS=session"
+      string "INTERFACE=org.freedesktop.DBus"
+      string "OBJPATH=/org/freedesktop/DBus"
+      string "SENDER=org.freedesktop.DBus"
+      string "ARG0=:1.177"
+      string "ARG1=:1.177"
+      string "ARG2="
+   ]
+signal time=1496349783.752791 sender=:1.115 -> destination=(null destination) serial=130 path=/com/canonical/unity/gtk/window/0; interface=org.gtk.Actions; member=Changed
+   array [
+   ]
+   array [
+      dict entry(
+         string "TabsMoveRight"
+         boolean false
+      )
+   ]
+   array [
+   ]
+   array [
+   ]
+signal time=1496349783.753285 sender=:1.15 -> destination=(null destination) serial=14675 path=/com/ubuntu/Upstart; interface=com.ubuntu.Upstart0_6; member=EventEmitted
+   string "dbus"
+   array [
+      string "SIGNAL=Changed"
+      string "BUS=session"
+      string "INTERFACE=org.gtk.Actions"
+      string "OBJPATH=/com/canonical/unity/gtk/window/0"
+      string "SENDER=:1.115"
+   ]

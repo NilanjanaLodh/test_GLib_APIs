@@ -1,0 +1,4 @@
+<node>
+    <signal name="GetBackend" />
+    <signal name="StopListing"/>
+</node>

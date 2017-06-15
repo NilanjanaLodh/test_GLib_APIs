@@ -1,0 +1,6 @@
+<node>
+    <interface name="com.Print.Backend">
+        <method name="hello_world"></method>
+        <signal name="BackendReply" />
+    </interface>
+</node>

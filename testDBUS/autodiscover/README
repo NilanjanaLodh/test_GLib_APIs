@@ -1,0 +1,17 @@
+Compilation:
+
+$ make gen
+$ make
+
+
+__________________
+
+Running
+
+$ ./server_cups &
+$ ./server_dummy &
+$ ./front_end
+
+_________________
+Cleaning up
+$ make clean

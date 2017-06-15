@@ -1,0 +1,23 @@
+<node>
+    <interface name="com.Nilanjana.Calculator">
+        <method name="add">
+            <arg name="num1" direction="in" type="i" />
+            <arg name="num2" direction="in" type="i" />
+            <arg name="ans" direction="out" type="i" />
+        </method>
+        <method name="sub">
+            <arg name="num1" direction="in" type="i" />
+            <arg name="num2" direction="in" type="i" />
+            <arg name="ans" direction="out" type="i" />
+        </method>
+    </interface>
+
+
+    <interface name="com.Nilanjana.Alarm">
+        <method name="configure_alarm">
+            <arg name="seconds" type="i" direction="in" />
+        </method>
+        <signal name="beep"/>
+        <property name="activated" type="b" access="read" />
+    </interface>
+</node>
